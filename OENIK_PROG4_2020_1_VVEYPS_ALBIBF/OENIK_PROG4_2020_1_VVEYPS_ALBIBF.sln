@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceInvaders", "SpaceInvaders\SpaceInvaders.csproj", "{1359C29D-2093-48E7-8FB1-F70D7E4D7475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogic", "GameLogic\GameLogic.csproj", "{07B948AB-187D-4BF3-8C5B-502BF2FE275A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{6B0FC6E0-231B-4013-A12D-CE3310AC0D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogicTests", "GameLogicTests\GameLogicTests.csproj", "{468375BB-39F6-44D5-9530-DB7BC7721CCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1359C29D-2093-48E7-8FB1-F70D7E4D7475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1359C29D-2093-48E7-8FB1-F70D7E4D7475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1359C29D-2093-48E7-8FB1-F70D7E4D7475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1359C29D-2093-48E7-8FB1-F70D7E4D7475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B948AB-187D-4BF3-8C5B-502BF2FE275A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B948AB-187D-4BF3-8C5B-502BF2FE275A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B948AB-187D-4BF3-8C5B-502BF2FE275A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B948AB-187D-4BF3-8C5B-502BF2FE275A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0FC6E0-231B-4013-A12D-CE3310AC0D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0FC6E0-231B-4013-A12D-CE3310AC0D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0FC6E0-231B-4013-A12D-CE3310AC0D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0FC6E0-231B-4013-A12D-CE3310AC0D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468375BB-39F6-44D5-9530-DB7BC7721CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468375BB-39F6-44D5-9530-DB7BC7721CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468375BB-39F6-44D5-9530-DB7BC7721CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468375BB-39F6-44D5-9530-DB7BC7721CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6CCE653-DA11-4BE3-ACAF-3C1C89EEE7CF}
+	EndGlobalSection
+EndGlobal

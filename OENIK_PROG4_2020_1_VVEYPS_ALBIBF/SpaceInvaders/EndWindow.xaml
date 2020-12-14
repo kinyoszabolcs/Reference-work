@@ -1,0 +1,26 @@
+﻿<Window x:Class="SpaceInvaders.EndWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceInvaders"
+        mc:Ignorable="d"
+        Title="EndWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img/backg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1">
+
+            <Label x:Name="GameOver" Content="Game Over" HorizontalAlignment="Center" FontSize="45" Foreground="Red" FontFamily="Arial Bold" Margin="0,50,0,30"/>
+            <Button Click="NewGame" Content="Play again" Margin="60,30,60,0" Foreground="DarkBlue" Background="Gray"></Button>
+            <Button Click="Menu" Content="Main menu" Height="25" Margin="60,30,60,0" Foreground="DarkBlue" Background="Gray"></Button>
+
+        </StackPanel>
+    </Grid>
+</Window>

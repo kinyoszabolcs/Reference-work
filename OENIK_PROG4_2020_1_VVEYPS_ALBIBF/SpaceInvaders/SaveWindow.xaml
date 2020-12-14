@@ -1,0 +1,30 @@
+﻿<Window x:Class="SpaceInvaders.SaveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceInvaders"
+        mc:Ignorable="d"
+        Title="SaveWindow" Height="377.6" Width="700">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img/backg.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" Grid.ColumnSpan="2" Margin="0.4,0,172.6,0.4">
+
+            <Label x:Name="Save" Content="Saving Game" HorizontalAlignment="Center" FontSize="45" Foreground="Yellow" FontFamily="Arial Bold" Margin="0,50,0,30"/>
+            <Label x:Name="YName" Content="Your name: " HorizontalAlignment="Center" FontSize="20" Foreground="White" />
+            <TextBox  Height="18"  Text="{Binding Username}" Margin="80,0,80,0"></TextBox>
+            <Button Click="Send" Content="Save" Margin="60,30,60,0" Foreground="DarkBlue" Background="Gray"></Button>
+            <Button Click="Resume" Content="Resume" Height="25" Margin="60,15,60,15" Foreground="DarkBlue" Background="Gray"></Button>
+            <Button Click="Quit"  Content="Quit" Margin="60,0" Foreground="DarkBlue" Background="Gray"/>
+
+
+        </StackPanel>
+    </Grid>
+</Window>
